@@ -1,0 +1,521 @@
+/* ================================= 
+  Base Element Styles
+==================================== */
+
+* {
+	box-sizing: border-box;
+}
+
+body {
+	font-family: 'Roboto', sans-serif;, serif;
+    background-color: #0e1111;
+	line-height: 1.6;
+	color: #fefefe;
+}
+
+body, html {
+    height: 100%;
+    margin: 0;
+}
+
+
+p {
+	font-size: .95em;
+	margin-bottom: -7.2em;
+	margin-top: 5em;
+	padding-left: 100px;
+	margin-right: 100px;
+}
+
+h2,
+h3,
+a {
+	color: #093a58;
+}
+
+h2,
+h3,
+h4 {
+	margin-top: 0;
+}
+
+h4 {
+	margin-bottom: .4em;
+}
+
+a {
+	text-decoration: none;
+}
+
+
+
+/* ================================= 
+Africa
+==================================== */
+
+
+.africa-start {
+	font-size: 80pt;
+	vertical-align: middle;
+}
+
+.africa-hero-image {
+  background-image: url("../img/sunset2.jpeg");
+  height: 100%;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-attachment:fixed;
+  background-size: cover;
+  position: relative;
+  z-index: 2;
+}
+
+.africa-header-wrapper {
+    text-align: justify;
+    position: fixed;
+    z-index: 2;
+    top: 2.5%;
+    left: 2%;
+	border-top: solid white;
+}
+ 
+
+
+.afria-number {
+	font-size: 80pt;
+	font-weight: bold;
+	padding-top: 0.5em;
+	font-family: 'Abril Fatface', cursive;
+	line-height: 1.25em;
+	padding-bottom: 0.5em;
+	padding-right: 0.5em;
+	color: orange;
+
+}
+
+
+.africa-header-wrapper {
+    text-align: justify;
+    position: fixed;
+    z-index: 2;
+    top: 2.5%;
+    left: 2%;
+	background: transparent;
+	border-top: solid white;
+}
+
+
+
+.aftitle {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: white;
+  font-size: 71pt;
+  font-family: Abril Fatface, serif;
+}
+
+.africa-logo {
+	width: 100px;
+	height: 100px;
+}
+
+/* ================================= 
+logo
+==================================== */
+
+.china-logo {
+	color: red;
+}
+
+/* ================================= 
+header
+==================================== */
+
+
+
+
+.header-wrapper {
+    text-align: justify;
+    position: fixed;
+    z-index: 2;
+    top: 2.5%;
+    left: 2%;
+	background: rgba(255,0,0,0.7);
+	border-top: solid white;
+}
+}
+
+
+.home-bg-wrapper {
+	position: relative;
+}
+
+/* ================================= 
+Icons
+==================================== */
+
+.icons {
+	margin-top: 2em;
+	position: relative;
+	z-index: 3;
+	padding-top: 1em;
+}
+
+.money {
+	position: absolute;
+	left: 10%;
+}
+
+
+.envelope {
+	position: absolute;
+	left: 45%;
+}
+
+.clock {
+	position: absolute;
+	right: 10%;
+}
+
+.phone {
+	position: absolute;
+	right: 10%;
+}
+
+.money,
+.phone,
+.envelope,
+.clock {
+	background-color: #333;
+	width: 100px; 
+	height: 100px;
+	padding: 2em;
+	border-radius: 50%;
+	transition: .5s;
+	background-color: #333;
+	transition: background-color .1s ease-in-out;
+}
+
+.money {
+	background-color: #333;
+	transition: background-color .1s ease-in-out;
+}
+
+.money:hover {
+	background-color: white;
+}
+
+.envelope {
+	background-color: #333;
+	transition: background-color .1s ease-in-out;
+}
+
+.envelope:hover {
+	background-color: white;
+}
+
+.clock {
+	background-color: #333;
+	transition: background-color .1s ease-in-out;
+}
+
+.clock:hover {
+	background-color: white;
+}
+
+.phone {
+	background-color: #333;
+	transition: background-color .1s ease-in-out;
+}
+
+.phone:hover {
+	background-color: white;
+}
+
+
+
+
+/* ================================= 
+glow
+==================================== */
+
+.header-wrapper {
+    text-align: justify;
+    position: fixed;
+    z-index: 2;
+    top: 2.5%;
+    left: 2%;
+	background: transparent;
+	border-top: solid white;
+}
+
+.glow {
+	border-top: solid white;
+	transition: border-top .1s ease-in-out;
+}
+
+.glow:hover {
+	border-top: red;
+}
+
+
+/* ================================= 
+hero
+==================================== */
+
+.china-hero-image {
+  background-image: url("../lantern.jpeg");
+  height: 100%;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-attachment:fixed;
+  background-size: cover;
+  position: relative;
+  z-index: 1;
+}
+
+
+
+.home-intro {
+	text-align: justify;
+	position: relative;
+	margin: 6em;
+}
+
+.home-intro p {
+	font-size: 1.5em;
+	padding-top: 3em;
+	letter-spacing: 1px;
+	font-weight: lighter;
+	font-family: roboto;
+	line-height: 2.5em;
+}
+
+h1, sub-title {
+	padding-top: 1em;
+	padding-left: 100px;
+	text-align: justify;
+	color: #7E191B;
+	font-size: 69pt;
+	position: relative;
+	font-family: Abril Fatface, serif;
+	font-weight: lighter;
+	letter-spacing: 3px;
+
+}
+
+
+.capital {
+	font-size: 80pt;
+	font-weight: bold;
+}
+
+.number {
+	font-family: Abril Fatface;
+	font-size: 80pt;
+	font-weight: bold;
+	padding-top: 0.5em;
+	line-height: 1.25em;
+	padding-bottom: 0.5em;
+	padding-right: 0.5em;
+	color: #7E191B;
+}
+
+.lotus {
+	width: 100px;
+	position: absolute;
+	z-index: 3;
+	top: 5%;
+	right: 15%;
+	opacity: 0.7;
+	filter: alpha(opacity=50);
+	animation: bob 4s ease-in-out infinite;
+}
+
+@keyframes bob {
+	from{ transform: translateX(0)}
+	to{ transform: translateY(10px)}
+}
+
+
+@media only screen and (max-device-width: 480px)  {
+
+
+.afria-number {
+	font-size: 15pt;
+	font-weight: bold;
+	padding-top: 0.5em;
+	font-family: 'Abril Fatface', cursive;
+	line-height: 1.25em;
+	padding-bottom: 0.5em;
+	padding-right: 0.25em;
+	color: orange;
+
+}
+
+.number {
+	font-family: Abril Fatface;
+	font-size: 15pt;
+	font-weight: bold;
+	padding-top: 0.5em;
+	line-height: 1.25em;
+	padding-bottom: 0.5em;
+	padding-right: 0.25em;
+	color: #7E191B;
+}
+
+p {
+	font-size: .95em;
+	margin-bottom: -7.2em;
+	margin-top: 5em;
+	padding-left: 10px;
+	margin-right: 10px;
+}
+
+h1, sub-title {
+	padding-top: 1em;
+	padding-left: 10px;
+	margin-bottom: -2em;
+	text-align: justify;
+	color: #7E191B;
+	font-size: 38pt;
+	position: relative;
+	font-family: Abril Fatface, serif;
+	font-weight: lighter;
+	letter-spacing: 1px;
+
+}
+
+.lotus {
+	width: 0px;
+	position: absolute;
+	z-index: 3;
+	top: 5%;
+	right: 15%;
+	opacity: 0.7;
+	filter: alpha(opacity=50);
+	animation: bob 4s ease-in-out infinite;
+}
+
+@keyframes bob {
+	from{ transform: translateX(0)}
+	to{ transform: translateY(10px)}
+}
+
+
+.capital {
+	font-size: 38pt;
+	font-weight: bold;
+}
+
+.home-intro {
+	text-align: justify;
+	position: relative;
+	margin: 0;
+}
+
+.home-intro p {
+	font-size: 12px;
+	padding-top: 5em;
+	letter-spacing: 1px;
+	font-weight: lighter;
+	font-family: roboto;
+	line-height: 2em;
+}
+
+ .africa-hero-image {
+  background-image: url("../img/sunset2.jpeg");
+  height: 31%;
+  background-position: top;
+  background-repeat: no-repeat;
+  background-attachment:fixed;
+  background-size: 500px;
+  position: relative;
+  z-index: 2;
+}
+
+.china-hero-image {
+  background-image: url("../lantern.jpeg");
+  height: 31%;
+  background-position: top;
+  background-repeat: no-repeat;
+  background-attachment:fixed;
+  background-size: cover;
+  position: relative;
+  z-index: 1;
+}
+
+
+.aftitle {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: white;
+  font-size: 40pt;
+  font-family: Abril Fatface, serif;
+}
+
+.africa-logo {
+	width: 50px;
+	height: 50px;
+}
+
+.money,
+.phone,
+.envelope,
+.clock {
+	background-color: #333;
+	width: 100px; 
+	height: 100px;
+	padding: 1em;
+	border-radius: 50%;
+	transition: .5s;
+	background-color: #333;
+	transition: background-color .1s ease-in-out;
+}
+
+.money {
+	position: absolute;
+	left: 4%;
+}
+
+
+.envelope {
+	position: absolute;
+	left: 37%;
+}
+
+.clock {
+	position: absolute;
+	right: 4%;
+}
+
+.phone {
+	position: absolute;
+	right: 4%;
+}
+
+.africa-start {
+	font-size: 10pt;
+	vertical-align: middle;
+}
+
+.icons {
+	margin-top: 2em;
+	position: relative;
+	z-index: 1;
+	padding-top: 1em;
+}
+
+
+
+	body {
+	font-family: 'Roboto', sans-serif;, serif;
+    background-color: #0e1111;
+	line-height: 1.6;
+	color: #fefefe;
+}
+}
