@@ -266,7 +266,7 @@ hero
 ==================================== */
 
 .china-hero-image {
-  background-image: url("../lantern.jpeg");
+  background-image: url("lantern.jpeg");
   height: 100%;
   background-position: center;
   background-repeat: no-repeat;
