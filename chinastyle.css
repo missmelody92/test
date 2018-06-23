@@ -426,7 +426,7 @@ h1, sub-title {
 }
 
  .africa-hero-image {
-  background-image: url("../img/sunset2.jpeg");
+  background-image: url("sunset2.jpeg");
   height: 31%;
   background-position: top;
   background-repeat: no-repeat;
@@ -437,7 +437,7 @@ h1, sub-title {
 }
 
 .china-hero-image {
-  background-image: url("../lantern.jpeg");
+  background-image: url("lantern.jpeg");
   height: 31%;
   background-position: top;
   background-repeat: no-repeat;
